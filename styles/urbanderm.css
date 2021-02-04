@@ -1,0 +1,35 @@
+
+.green{
+    color: #24796d;
+}
+.urbanderm1{
+    background: url("../img/urbanderm_1.jpg") ;
+}
+.urbanderm2{
+    background: url("../img/urbanderm_2.jpg") ;
+}
+.spread{
+    background: url("../img/urbanderm_spread.jpg");
+}
+
+
+.teal img{
+    max-width: 100%;
+
+}
+
+.urbanoffice{
+    background: url("../img/urban_office.jpg");
+}
+.urbantech{
+    background: url("../img/urban_tech.jpg") ;
+}
+.borderImg{
+    background-image: url(../img/urban_serv.jpg);
+}
+.mobContact{
+    background: url("../img/urban_mobilecontact.jpg") ;
+}
+.urbanMac{
+    background: url("../img/urban_mac.jpg") ;
+}

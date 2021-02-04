@@ -1,0 +1,59 @@
+.Text{
+    color: #ed1163;
+}
+.dashCard{
+    background: url("../img/dash_cards.jpg") ;
+}
+.dashLogo{
+    background: #231F20 url("../img/dash-logo.svg") no-repeat center;
+}
+.dashmount{
+    background: url("../img/dash_mount.jpg") ;
+}
+.dashreport{
+    background: url("../img/dash_report.jpg") ;
+}
+.sometext.text{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 50%;
+    padding: 90px 0;
+}
+.dashmark{
+    background-image: url(../img/dash_mark.jpg);
+}
+.dashproofs{
+    background-image: url("../img/dash_proofs.jpg");
+}
+.borderImg{
+    background-image: url("../img/dash_wires.jpg");
+}
+
+.borderImg.dashimg{
+    background-image: url("../img/dash_combo.jpg");
+    height: 20vw;
+}
+.abs {
+    position: relative;
+    overflow: hidden;
+    height: 900px;
+}
+
+.abs > img {
+    position: absolute;
+    max-width: 400px;
+    width: 100%;
+
+
+}
+
+.abs .watch {
+    bottom: -10%;
+    left: 35%;
+}
+
+.abs .animPhone {
+    top: 0;
+    right: 30%;
+
+}

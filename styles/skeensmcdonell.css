@@ -1,0 +1,26 @@
+
+.skeensIntro{
+    background: url("../img/skeens_intro.jpg") ;
+}
+.skeensAlbert{
+    background: url("../img/skeens_albert.jpg") ;
+}
+.skeensDt {
+    background: url("../img/skeens_desktop.jpg") ;
+}
+.skeensWire{
+    background: url("../img/skeens_wire.jpg") ;
+}
+.skeensBook{
+    background: url("../img/skeens_book.jpg") ;
+}
+.skeensPersona{
+    background: url("../img/skeens_persona.jpg");
+}
+.skeensWork{
+    background: url("../img/skeens_wokrflow.jpg") ;
+
+}.borderImg{
+     background-image: url("../img/skeen_ipad.jpg");
+ }
+

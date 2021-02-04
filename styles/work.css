@@ -1,0 +1,45 @@
+.work_text .svg {
+
+    max-width: 135px;
+
+}
+.pic_block.work{
+    padding-bottom: 230px;
+}
+.work >div:nth-child(1) .bg{
+    background: url('../img/brute.jpg')  center no-repeat;
+    background-size: cover;
+}
+.work >div:nth-child(2) .bg{
+    background: url('../img/urbanderm.jpg') center no-repeat;
+    background-size: cover;
+}
+.work >div:nth-child(3) .bg{
+    background: url('../img/byrne.jpg') center no-repeat;
+    background-size: cover;
+}
+.work >div:nth-child(4) .bg{
+    background: url('../img/skeens.jpg') center no-repeat;
+    background-size: cover;
+}
+.work >div:nth-child(5) .bg{
+    background: url('../img/goodvite.jpg') center no-repeat;
+    background-size: cover;
+}
+.work >div:nth-child(6) .bg{
+    background: url('../img/gift.jpg') center no-repeat;
+    background-size: cover;
+}
+.work >div:nth-child(7) .bg{
+    background: url('../img/dash.jpg') center no-repeat;
+    background-size: cover;
+}
+.work >div:nth-child(8) .bg{
+    background: url('../img/node.jpg') center no-repeat;
+    background-size: cover;
+}
+.white{
+    padding-bottom: 200px;
+}
+
+

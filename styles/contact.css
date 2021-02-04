@@ -1,0 +1,127 @@
+.contact_text{
+    padding-bottom: 100px;
+
+}
+.contact_text .svg {
+    max-width: 205px;
+}
+
+fieldset {
+    border: none;
+}
+
+form {
+    font-size: 16px;
+    font-family:"PantReg", Helvetica, sans-serif;
+    max-width: 725px;
+    margin: 0 auto;
+    padding-bottom: 240px;
+
+}
+label{
+    margin-left: 12px;
+}
+.form {
+    display: flex;
+    flex-flow: wrap column;
+    margin: 0 auto;
+
+}
+
+input, select, textarea{
+    max-width: 100%;
+    display: inline-block;
+    padding: 20px 14px 20px 25px;
+    border: 1px solid #999;
+    background-color: #F8F8F8;
+    transition: 1s;
+
+}
+textarea{
+    margin-bottom: 55px;
+}
+
+.form_block {
+    display: flex;
+    flex-flow: wrap column;
+    margin-bottom: 28px;
+
+}
+
+input, select, textarea,input:focus, select:focus, textarea:focus{
+    margin: 12px;
+    outline: none;
+
+}
+input:focus, select:focus, textarea:focus,label:focus{
+    border: #1a1718 1px solid;
+}
+input:hover, select:hover, textarea:hover,label:hover{
+    background-color: #fff;
+}
+.double_input {
+    display: flex;
+
+}
+
+.double_input input {
+    width: 100%;
+}
+.select_form {
+    display: flex;
+    flex-direction: column;
+}
+.select_form >div{
+    margin: 28px 0 38px 0;
+    display: flex;
+}
+.select_form >div>select{
+    width: 100%;
+}
+.sub.button{
+    margin: 20px auto;
+    background-color: #e9b370;
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    font-weight: 700;
+    padding: 20px;
+    cursor: pointer;
+}
+.sub.button:hover{
+    color: #e9b370;
+    background-color: #fff;
+}
+.checkboxes {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    padding: 40px 0 60px;
+
+}
+.checkboxes label{
+    width: 40%;
+    position: relative;
+
+}
+.checkboxes label>div{
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    position: absolute;
+    border: 1px solid #999;
+    transition: 0.6s cubic-bezier(0.3, 0.1, 0.58, 1);
+    top: 9px;
+    left: 8px;
+    padding: 3px;
+
+}
+input:checked + div{
+    background-color: #e9b370;
+}
+#method{
+    margin: 40px 12px 50px;
+}
+

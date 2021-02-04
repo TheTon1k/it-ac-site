@@ -1,0 +1,84 @@
+.Text {
+    color: #293A71;
+}
+
+.goodmsg {
+    background: url("../img/goodvite_msg.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.goodbrand {
+    background: url("../img/goodvite_brand.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.curBlue {
+    background-color: #218FE4;
+}
+
+.astronaut {
+    background-color: #293A71;
+}
+
+.FrenchRose {
+    background-color: #ee4771;
+}
+
+.goodMeasure {
+    background: url("../img/goodvite_measure.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.goodlogo {
+    display: block;
+    margin: 0 auto
+}
+
+.goodsticker {
+    background: url("../img/good_sticker.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.goodproof {
+    background: url("../img/good_proof.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.borderImg {
+    background-image: url("../img/good_model.jpg");
+}
+
+.goodwire1 {
+    background: url("../img/good_wire2.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.goodwire2 {
+    background: url("../img/good_wire1.jpg") no-repeat center;
+    background-size: cover;
+}
+
+.abs {
+    position: relative;
+    overflow: hidden;
+    height: 900px;
+}
+
+.abs > img {
+    position: absolute;
+    max-width: 850px;
+    width: 100%;
+
+
+}
+
+.abs .goodpad {
+    top: 40%;
+    left: -5%;
+}
+
+.abs .goodcount {
+    top: 0;
+    left: 22%;
+}
+

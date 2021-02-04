@@ -1,0 +1,122 @@
+.journal_text .svg{
+    max-width: 190px;
+}
+.journal {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 190px;
+    text-align: center;
+}
+.block.journal_text{
+    padding-bottom: 115px;
+}
+.j_item{
+    position: relative;
+    width: 365px;
+    margin: 1%;
+    height: 365px;
+    opacity: 0;
+    transition: all .3s ease-in-out;
+    overflow: hidden;
+
+}
+.j_item.hovered{
+    display: none;
+    opacity: 0;
+
+}
+.j_item:nth-child(1) .bg{
+    background: url("../img/journ1.jpg") center no-repeat;
+    background-size: cover;
+}
+.j_item:nth-child(2) .bg{
+    background: url("../img/journ2.jpg") center no-repeat;
+    background-size: cover;
+}
+.j_item:nth-child(3) .bg{
+    background: url("../img/journ3.jpg") center no-repeat;
+    background-size: cover;
+}
+.j_item:nth-child(4) .bg{
+    background: url("../img/journ4.jpg") center no-repeat;
+    background-size: cover;
+}
+.j_item:nth-child(5) .bg{
+    background: url("../img/journ5.jpg") center no-repeat;
+    background-size: cover;
+}
+.j_item:nth-child(6) .bg{
+    background: url("../img/journ6.jpg") center no-repeat;
+    background-size: cover;
+}
+.j_item:nth-child(7) .bg{
+    background: url("../img/journ7.jpg") center no-repeat;
+    background-size: cover;
+}
+.j_item:nth-child(8) .bg{
+    background: url("../img/journ8.jpg") center no-repeat;
+    background-size: cover;
+}
+.j_item:nth-child(9) .bg{
+    background: url("../img/journ9.jpg") center no-repeat;
+    background-size: cover;
+}
+.j_item:nth-child(10) .bg{
+    background: url("../img/journ10.jpg") center no-repeat;
+    background-size: cover;
+}
+.j_item:nth-child(11) .bg{
+    background: url("../img/journ11.jpg") center no-repeat;
+    background-size: cover;
+}
+.j_item:nth-child(12) .bg{
+    background: url("../img/journ12.jpg") center no-repeat;
+    background-size: cover;
+}
+.but_div{
+    width: 100%;
+    padding: 20px;
+}
+.but_div .button{
+    padding: 30px 70px;
+    font-size: 28px;
+    cursor: pointer;
+
+}
+
+.j_text{
+    background: rgba(11, 11, 11, 0.5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    font-style: italic;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    transition:all 0s ease-in-out;
+}
+.j_text .pic_about{
+    font-size: 24px;
+    font-family: 'Georgia', serif;
+    font-weight: 500;
+    line-height: 1.2;
+    margin-bottom: 10px;
+
+}
+
+.j_text .date{
+    font-family: 'HelveticaNeueCyr', 'Arial', sans-serif;
+    font-weight: 300;
+}
+.j_item:hover .bg{
+    filter: grayscale(0);
+    transform: scale(1.25);
+    transition:all .3s ease-in-out;
+}
+

@@ -1,0 +1,33 @@
+.ngcIntro {
+    background: url("../img/ngc_intro.jpg");
+}
+
+.ngcCard {
+    background: url("../img/ngc_brand.jpg") no-repeat center;
+    background-size: cover;
+
+}
+
+.ngcFrames {
+    background: url("../img/ngc_frames.jpg") ;
+}
+
+.ngcConcept {
+    background: url("../img/ngc_concept.jpg") ;
+}
+
+.ngcBook {
+    background: url("../img/ngc_book.jpg") ;
+}
+
+.borderImg {
+    background-image: url(../img/ngc_icons.jpg);
+}
+
+.ngcGuide {
+    background: url("../img/guide.jpg");
+}
+
+.ngcFront {
+    background: url("../img/frontend.jpg") ;
+}

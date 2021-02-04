@@ -1,0 +1,26 @@
+
+.colored_bg{
+    background-color: #EE3124;
+}
+.Red{
+    color: Red;
+}
+.burneIntro{
+    background: url("../img/byrne_intro.jpg") ;
+}
+.byrneBrand{
+    background: url("../img/byrne_brand.jpg");
+}
+
+.byrneCart{
+    background: url("../img/byrne_cart.jpg");
+}
+.byrneShot{
+    background: url("../img/byrne_shot.jpg")
+}
+.byrneBook{
+    background: url("../img/byrne_book.jpg")
+}
+.borderImg{
+    background-image: url(../img/byrne_photo.jpg);
+}
